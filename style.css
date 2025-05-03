@@ -1,0 +1,102 @@
+body {
+font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 430px;
+  text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('https://media.licdn.com/dms/image/v2/D5603AQEqqp2VYJLF9Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1691755511927?e=1751500800&v=beta&t=nLniOZi-xCOPTNOIbMJB4ra42KU4Ywcskf40D7nf-S0');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 1rem;
+}
+  
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.link-icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 0.5rem;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #00bfff;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  box-shadow: 2px 2px 0px #00bfff;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #f0faff;
+}
+
+.button span {
+  flex: 1;
+  text-align: left;
+}
+
+.button .delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer strong {
+  color: #1aaf5d;
+}
